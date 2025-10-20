@@ -227,7 +227,52 @@
     font-size: 0.85em;
   }
 }
+/* 📱 Mobilde Discord Kartını Küçültme */
+@media (max-width: 600px) {
+  .discord-card {
+    width: 180px;
+    height: auto;
+    bottom: 15px;
+    right: 15px;
+    transform: none;
+    box-shadow: 0 0 10px #00bfff;
+    border-radius: 12px;
+  }
 
+  .discord-banner {
+    height: 60px;
+  }
+
+  .discord-avatar {
+    width: 55px;
+    height: 55px;
+    top: 35px;
+    left: 15px;
+  }
+
+  .discord-info {
+    padding: 60px 10px 10px;
+  }
+
+  .discord-name {
+    font-size: 1em;
+  }
+
+  .discord-tag {
+    font-size: 0.8em;
+  }
+
+  .discord-bio {
+    display: none; /* Mobilde bio gizlensin */
+  }
+
+  .status-dot {
+    width: 10px;
+    height: 10px;
+    top: 80px;
+    left: 60px;
+  }
+}
   </style>
 </head>
 <body>
@@ -300,4 +345,5 @@
     }
   </script>
 </body>
+
 </html>
